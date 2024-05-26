@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    width: 100%;
+    height:calc(100vh - 120px) ;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color:rgb(210, 43, 43) ;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.services-container {
+    padding: 4rem 2rem;
+}
+
+.services-container h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 700px) {
+    .hero-section  {
+        width:100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+        
+    }
+}
+@media (min-width: 300px) {
+    .  {
+        width:130%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+        
+    }
+}
+@media (max-width: 1000px) {
+    .hero-section  {
+        width:130%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+        
+    }
+}
+
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+
+    .services-container h2 {
+    }
+
+.haha{
+   text-align: right;
+   color: red;
+   display: inline-block;
+   vertical-align: middle;
+   
+}
+/* CSS */
+.container {
+    display: flex;
+    align-items:flex-start;
+    width:400px;
+
+  }
+  
+  .image {
+    margin-right: 10px;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  a{
+    color: rgb(88, 88, 215);
+  }
+ 
+  @media (max-width: 948px) {
+    .hero-section {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 1.2rem;
+    }
+  }
+  .a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  @media (max-width: 300px) {
+    .a {
+      font-size: 1.2rem;
+      padding: 10px;
+    }
+  }
+  @media (max-width: 800px) {
+    img {
+      width: 80%; /* adjust the width to your liking */
+      height: auto;
+      margin: 20px auto; /* add some margin to make it look better */
+    }
+  }
